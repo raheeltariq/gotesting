@@ -1,0 +1,10 @@
+---
+- name: show arrays
+  hosts: ansmnode3.vpractice.local
+  var_files:
+    - vars/users
+  tasks:
+    - name: print array values
+      debug:
+        msg: "user {{users.auser02.username }} has homedirectory {{users.auser02.homedir }} and shell {{users.auser02.shell }}"
+...

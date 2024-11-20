@@ -1,0 +1,13 @@
+users:
+  auser01:
+    username: auser01
+    homedir: /home/auser01
+    shell: /bin/bash
+  auser02:
+    username: auser02
+    homedir: /home/auser02
+    shell: /bin/bash
+  auser03:
+    username: auser03
+    homedir: /home/auser03
+    shell: /bin/bash
